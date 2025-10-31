@@ -1,6 +1,6 @@
 
 
-\# Desafio Code Girl AWS: Upload de Arquivos com Processamento e Registro no DynamoDB
+# Desafio Code Girl AWS: Upload de Arquivos com Processamento e Registro no DynamoDB
 
 
 
@@ -12,17 +12,17 @@ Cliente fazendo um Armazenamento de arquivo:
 
 
 
-&nbsp;   Cliente ---Arquivo---> S3---trigger--->Lambda Function---Arquivo---> DynamoDB <---API Gateway
+   Cliente ---Arquivo---> S3---trigger--->Lambda Function---Arquivo---> DynamoDB <---API Gateway
 
 
 
 
 
-Cliente fazendo uma consulta:
+  Cliente fazendo uma consulta:
 
 
 
-&nbsp;   Cliente ---query---> API Gateway ---chama lambda--->DynamoDB
+   Cliente ---query---> API Gateway ---chama lambda--->DynamoDB
 
 
 
@@ -34,5 +34,5 @@ Ferramentas utilizadas:
 
 
 
--LocalStack
+- LocalStack
 
